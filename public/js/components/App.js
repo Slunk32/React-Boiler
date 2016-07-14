@@ -5,18 +5,7 @@ import store from '../store';
 
 function getState() {
 	return {
-		tracks: store.getTracks(),
-		playingTrack: store.getPlayingTrack(),
-		likedTrackIds: store.getLikedTrackIds(),
-		authToken: store.getAuthToken(),
-		artists: store.getArtists(),
-		selectedArtist: store.getSelectedArtist(),
-		artistTrackList: store.getSelectedArtistTrackList(),
-		user: store.getUser(),
-		playlist: store.getPlaylist(),
-		playlistStatus: store.getPlaylistStatus(),
-		likedTracks: store.getLikedTracks(),
-		errors: store.getErrors()
+	
 	};
 }
 

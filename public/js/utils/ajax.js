@@ -18,8 +18,8 @@ const Ajax = {
 		return fetch(url, {
 			method: 'post',
 			headers: {
-		      'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-		    },
+				'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+			},
 			body: stringify(params)
 		}).then(resp => resp.json());
 	}
