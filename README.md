@@ -1,8 +1,4 @@
-# Cesura
-
-Cesura is music discovery web application. It uses Spotify's Web API to let users sample tracks related to artists they like. It also allows them to them create and edit playlists in order to enjoy the music they've discovered through the Spotify app.
-
-See it live at [https://cesuradev.herokuapp.com](https://cesuradev.herokuapp.com).
+# APP_NAME_HERE
 
 ## Test
 `npm test`  
