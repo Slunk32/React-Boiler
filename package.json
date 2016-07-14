@@ -24,6 +24,8 @@
   },
   "homepage": "",
   "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
     "babel-preset-react": "^6.5.0",
     "babel-runtime": "^6.3.19",
     "babelify": "^7.3.0",
