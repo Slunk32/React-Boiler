@@ -9,10 +9,10 @@ const app = express();
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('public'));
 
 
 app.all('*', function(req, res) {
-	console.log(req);
 	res.render('layout');
 });
 
