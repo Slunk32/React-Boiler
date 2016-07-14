@@ -4,13 +4,11 @@ require('dotenv').config();
 
 process.on('unhandledRejection', err => { throw err; });
 
-
 const app = express();
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
-
 
 app.all('*', function(req, res) {
 	res.render('layout');

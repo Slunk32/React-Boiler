@@ -5,9 +5,7 @@ import actionConstants from './action_constants';
 import dispatcher from './dispatcher';
 
 let info = {
-
 };
-
 
 const Store = Object.assign({}, EventEmitter.prototype, {
 	CHANGE_EVENT: "Symbol",
@@ -22,14 +20,11 @@ const Store = Object.assign({}, EventEmitter.prototype, {
 
 	emitChange() {
 		this.emit(this.CHANGE_EVENT);
-	},
-
-
+	}
 });
 
 function handleChange(action) {
 	switch(action.type) {
-
 	}
 
 	Store.emitChange();

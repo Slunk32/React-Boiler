@@ -9,7 +9,7 @@ import NoMatch from './components/NoMatch';
 function registerApp() {
 	render((
 	  <Router history={browserHistory}>
-		<Route path="/" component={App}>
+		<Route component={App}>
 		  <Route path="*" component={NoMatch} />
 		</Route>
 	  </Router>

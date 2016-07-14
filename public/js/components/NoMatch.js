@@ -3,11 +3,10 @@
 import React from 'react';
 
 const NoMatch = React.createClass({
-
 	render() {
 		return (
 			<div>
-				Sorry!
+				An app will be here one day
 			</div>
 		);
 	}

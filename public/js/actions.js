@@ -6,7 +6,6 @@ import store from './store';
 import ajax from './utils/ajax';
 
 const Actions = {
-	
 };
 
 module.exports = Actions;

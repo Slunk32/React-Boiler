@@ -5,7 +5,6 @@ import store from '../store';
 
 function getState() {
 	return {
-	
 	};
 }
 
